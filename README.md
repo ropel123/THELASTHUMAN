@@ -37,4 +37,4 @@ The page is fully static — you can also just serve `public/` with any static f
 Placeholders to replace when going live:
 
 - Contract address: `data-contract="COMING SOON"` on the `#copyContract` button in `public/site.html`
-- Social links: the three `href="#"` links in the `#community` section (X, Telegram, Dexscreener)
+- Dexscreener link: still `href="#"` in the `#community` section (X and Telegram are set)
