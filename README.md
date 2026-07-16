@@ -28,7 +28,9 @@ The page is fully static — you can also just serve `public/` with any static f
 
 ## Deploy
 
-`npm run build` produces `dist/` for Cloudflare Workers (see `wrangler.jsonc`). The `.openai/hosting.json` file is the hosting reference from the app-builder export this project originated from.
+**Vercel**: `vercel.json` serves the site as pure static files (no build step): it publishes the `public/` directory and rewrites `/` to `/site.html`. Just import the repo in Vercel and deploy.
+
+**Cloudflare Workers**: `npm run build` produces `dist/` (see `wrangler.jsonc`). The `.openai/hosting.json` file is the hosting reference from the app-builder export this project originated from.
 
 ## Before launch
 
