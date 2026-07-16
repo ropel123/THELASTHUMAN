@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "human-signal-001",
+  "name": "broke-bull",
   "compatibility_date": "2026-07-16",
   "compatibility_flags": ["nodejs_compat"],
   "main": "vinext/server/fetch-handler",
